@@ -1,0 +1,271 @@
+2013/04/30 11:44:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/module
+---
+2013/04/30 11:45:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/module
+---
+2013/04/30 11:45:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/module
+---
+2013/04/30 11:45:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:45:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:46:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'scorpy'@'localhost' (using password: YES)' in C:\www_root\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\www_root\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\www_root\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\www_root\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\www_root\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\www_root\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\www_root\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\www_root\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\www_root\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\www_root\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\www_root\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\www_root\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\www_root\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\www_root\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\www_root\yiitest\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/model
+---
+2013/04/30 11:49:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in C:\www_root\yiitest\index.php (13)
+2013/04/30 12:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/users".' in C:\www_root\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/users')
+#1 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\www_root\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/users
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii
+---
+2013/04/30 12:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/Uusers".' in C:\www_root\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/Uusers')
+#1 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\www_root\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/Uusers
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/users
+---
+2013/04/30 12:16:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/Users".' in C:\www_root\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www_root\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/Users')
+#1 C:\www_root\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\www_root\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/index.php?r=gii/Users
+HTTP_REFERER=http://localhost/yiitest/index.php?r=gii/Uusers
+---
